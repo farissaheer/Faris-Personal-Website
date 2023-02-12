@@ -613,7 +613,7 @@ section {
 .contact-content-con .left-contact .contact-info .contact-item {
   font-size: 0.9rem;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
 }
 
@@ -957,13 +957,13 @@ section {
 }
 
 @media screen and (max-width: 1250px) {
-  .blogs {
+  /* .blogs {
     grid-template-columns: repeat(2, 1fr);
     margin-top: 6rem;
   }
   .portfolios {
     grid-template-columns: repeat(2, 1fr);
-  }
+  } */
   .header-content .right-header {
     padding-right: 9rem;
   }
